@@ -1,0 +1,96 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+#map {
+  height: 100vh;
+  /* Full viewport height */
+  width: 100vw;
+  /* Full viewport width */
+  position: relative;
+}
+
+/* Styling for the legend */
+.info.legend {
+  background-color: white;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #555;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Title of the legend (optional, if you want to add a title) */
+.info.legend h4 {
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Labels for min and max values */
+.labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Background color for labels */
+.labels .min,
+.labels .max {
+  background-color: #f4f4f4;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+/* Legend color boxes */
+.info.legend ul {
+  padding: 0;
+  margin: 5px 0 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info.legend ul li {
+  background-color: #636363;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  margin: 0 5px;
+}
+
+.info.legend .label {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.info.legend {
+  background-color: white;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.info.legend i {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin-right: 8px;
+  border-radius: 3px;
+  border: 1px solid #999;
+}
